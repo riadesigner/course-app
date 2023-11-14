@@ -1,3 +1,4 @@
+# Курсовой проект
 
 ## запуск dev версии
 docker compose up --build
