@@ -78,7 +78,7 @@ API (вход/выход > json)
 - http://localhost:8000/api/login (Авторизация, регистрация)
 
 Просмотр конкретного объявления и сообщение автору:
-- http://localhost:8000/ads/655300869163c742621042b0 
+- http://localhost:8000/ads/<id_advertisement> 
 
 Скрин [страницы объявления](https://github.com/riadesigner/course-app/blob/main/screen-01.png)
 
