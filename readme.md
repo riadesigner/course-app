@@ -20,7 +20,10 @@ docker compose -f docker-compose-build.yml up --build
 docker compose -f docker-compose-prod.yml up
 ```
 
-## Характеристики приложения
+
+### Характеристики приложения
+
+### host/post
 
 - app -> localhost:8000   
 - Mongo-Express -> localhost:8082   
