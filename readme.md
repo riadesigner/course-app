@@ -19,3 +19,18 @@ docker compose -f docker-compose-build.yml up --build
 ```shell
 docker compose -f docker-compose-prod.yml up
 ```
+
+## Характеристики приложения
+
+- app -> localhost:8000   
+- Mongo-Express -> localhost:8082   
+
+1. Приложение содержит следующие **базовые** модули:
+
+- 1.1. Пользователи.
+- 1.2. Объявления.
+- 1.3. Чат.
+
+
+
+
