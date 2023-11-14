@@ -1,8 +1,9 @@
 # Курсовой проект
 
 Бэкенд-приложение с API для доски объявления с чатом.   
-[Подробное ТЗ здесь](https://github.com/netology-code/ndse-diplom).
-[Копия ТЗ здесь](https://github.com/riadesigner/course-app/original-task.md)   
+[Подробное тех.задание здесь](https://github.com/netology-code/ndse-diplom)      
+[Копия тех.задания здесь](https://github.com/riadesigner/course-app/blob/main/original-task.md)   
+
 
 ## запуск dev версии
 ```shell
