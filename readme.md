@@ -5,17 +5,19 @@
 [Копия тех.задания здесь](https://github.com/riadesigner/course-app/blob/main/original-task.md)   
 
 
-## запуск dev версии
+## запуск приложения 
+
+### dev версия
 ```shell
 docker compose up --build
 ```
 
-## запуск предварительной сборки
+### предварительная сборка
 ```shell
 docker compose -f docker-compose-build.yml up --build 
 ```
 
-## запуск product версии
+### product версия
 ```shell
 docker compose -f docker-compose-prod.yml up
 ```
@@ -70,16 +72,17 @@ API (вход/выход > json)
 ```
 
  
-### дополнительно
+### Дополнительно
 
-Для тестирования через браузер созданы несколько страниц
+Для тестирования через браузер созданы несколько страниц:
 - http://localhost:8000 (ссылки на главной)
 - http://localhost:8000/api/login (Авторизация, регистрация)
 
-Просмотр конкретного объявления и сообщение автору
+Просмотр конкретного объявления и сообщение автору:
 - http://localhost:8000/ads/655300869163c742621042b0 
 
-Скрин страницы объявления здесь
+Скрин [страницы объявления](https://github.com/riadesigner/course-app/blob/main/screen-01.png)
+
 
 
 
