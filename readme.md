@@ -9,3 +9,8 @@ docker compose up --build
 ```shell
 docker compose -f docker-compose-build.yml up --build 
 ```
+
+## запуск product версии
+```shell
+docker compose -f docker-compose-prod.yml up
+```
