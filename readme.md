@@ -43,8 +43,8 @@ docker compose -f docker-compose-prod.yml up
 
 Подробности -> в ТЗ.
 
-API (json)
-- localhost:8000/api/signup (регистрация)
+API (вход/выход > json)
+- http://localhost:8000/api/signup (регистрация)
 ```json
 {
     "name":"petya",
@@ -53,14 +53,14 @@ API (json)
     "contactPhone":""
 }
 ```
-- localhost:8000/api/signin (авторизация)
+- http://localhost:8000/api/signin (авторизация)
 ```json
 {
     "email":"petya@mail.ru",
     "password":"123"
 }
 ```
-- http://localhost:8000/api/advertisements (публикация)
+- http://localhost:8000/api/advertisements (публикация, просмотр объявлений)
 ```json title="multipart-form-data"
 {
     "shortTitle":"shortTitle 1",
@@ -68,13 +68,18 @@ API (json)
     "images":[]
 }
 ```
+
  
 ### дополнительно
 
-Для тестирования созданы несколько страниц
+Для тестирования через браузер созданы несколько страниц
+- http://localhost:8000 (ссылки на главной)
 - http://localhost:8000/api/login (Авторизация, регистрация)
-- http://localhost:8000/api/login ()
 
+Просмотр конкретного объявления и сообщение автору
+- http://localhost:8000/ads/655300869163c742621042b0 
+
+Скрин страницы объявления здесь
 
 
 
